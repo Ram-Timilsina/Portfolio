@@ -5,27 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Details</title>
     <link rel="stylesheet" href="style.css">
-</head>
+<header>
+    <nav>
+    <ul>
+      <li><a href="index.html" class="active">HOME</a></li>
+      <li><a href="contact.html">CONTACT ME</a></li>
+      <li><a href="project.html">PROJECTS</a></li>
+      <li><a href="Image/contact.pdf">Details</a></li>
+    </ul>
+      <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+  </header>
+  </head>
+  <br/>
 <body style="background-color: #1e1e1e;">
     <section class="contact" id="contact">
-        <div class="center-text" style="background-color: rgb(165, 165, 223);">
-            <h2>Contact<span> Me</span></h2>
-            </div>
-            <div class="contact-form" style="color: white;">
-                <form action="">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="Email" placeholder="Email Address" required>
-                    <textarea name="" id="" cols="81" rows="10" placeholder="Write message here" required></textarea>
-                <input type="submit" name="" value="send message" class="send-btn"
+            <h2 class="heading">Contact<span> Me</span></h2>
+                <form action="#">
+                    <div class="input-box">
+                    <input type="text" placeholder="Full  Name" >
+                    <input type="email" placeholder="Email Address" >
+                    </div>
+                    <div class="input-box">
+                        <input type="number" placeholder="Mobile Number">
+                        <input type="text" placeholder="Email Subject">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write message here" required></textarea>
+                <input type="submit"  value="send message" class="btn">
                 </form>
             </div>
     </section>
-            <div class="footer">
-                <div class="copyright">
-                    <p style="background-color: white;">2024 Ram Timilsina All Rights Reserved</p>
+            <footer class="footer">
+                <div class="footer-text">
+                    <p>Copyright &copy;2024 @Ram_Timilsina | All Rights Reserved.</p>
                 </div>
+            <div class="footer-IconTop">
+                <a href="#Home"><i class="fa-solid fa-angle-up"></i></a>
             </div>
+            </footer>
         
-    
+            <script src="main.js"></script>
 </body>
 </html>
