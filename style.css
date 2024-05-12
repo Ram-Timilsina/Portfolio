@@ -48,7 +48,7 @@ text-decoration-color: #fff;
 }
 .hamburger{
   position: relative;
-  margin-right: 35rem;
+  margin-right: 200px;
   font-size:30px;
   color: white;
   display: none;
